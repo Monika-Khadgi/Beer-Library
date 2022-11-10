@@ -1,0 +1,39 @@
+.beer-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.image-container {
+    width: 100%;
+    float: right;
+} 
+
+.item-container {
+    width: 100%;
+    float: left;
+    padding: 0 1rem;
+    border-left: 1px solid black;
+} 
+
+.beer-image {
+    width: 30%;
+    float: right;
+    margin-right: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #808080;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    width: max-content;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
